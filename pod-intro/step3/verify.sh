@@ -1,3 +1,3 @@
 #!/bin/bash
 
-if kubectl get pod get all; then exit 1; fi
+if kubectl get delete pod my-pod; then exit 1; fi
